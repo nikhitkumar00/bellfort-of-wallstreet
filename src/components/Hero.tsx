@@ -8,7 +8,11 @@ const Hero = () => {
 				<h2 className="text-4xl text-center sm:text-left md:text-6xl lg:text-8xl font-bold">
 					Belfort of wallstreet
 				</h2>
-				<a className="bg-black hover:bg-slate-800 cursor-pointer text-white px-4 py-2 lg:px-8 lg:py-4 font-semibold mt-8 lg:text-xl rounded-full">
+				<a
+					href="https://docs.google.com/forms/d/e/1FAIpQLSd4KnimxwasGgDVW_EZJgrl8G2m3_yxPj9Tii0_FHMfs86yPQ/viewform"
+					target="_blank"
+					className="bg-black hover:bg-slate-800 cursor-pointer text-white px-4 py-2 lg:px-8 lg:py-4 font-semibold mt-8 lg:text-xl rounded-full"
+				>
 					Register now
 				</a>
 			</div>
