@@ -1,4 +1,5 @@
 import AboutComponent from "./components/About";
+import Guidlines from "./components/Guidlines";
 import Hero from "./components/Hero";
 import Rounds from "./components/Rounds";
 
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <AboutComponent />
       <Rounds />
+      <Guidlines />
     </>
   );
 }
