@@ -20,7 +20,7 @@ const Rounds = () => {
     },
   ];
   return (
-    <div className="flex min-h-screen w-full flex-col bg-[#171921] p-10">
+    <div className="bg-hero-pattern flex min-h-screen w-full flex-col p-10">
       <h1 className="p-10 text-center text-5xl font-extrabold text-white">
         Rounds
       </h1>
@@ -34,7 +34,7 @@ const Rounds = () => {
               <h3 className="text-2xl font-bold md:text-3xl">{round.name}</h3>
               <p className="text-xl font-bold md:text-2xl">{round.date}</p>
             </div>
-            <p className="text-xl md:text-2xl">{round.paragraph}</p>
+            <p className="text-xl">{round.paragraph}</p>
           </div>
         ))}
       </div>
