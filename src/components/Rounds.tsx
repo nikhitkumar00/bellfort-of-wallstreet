@@ -20,15 +20,15 @@ const Rounds = () => {
     },
   ];
   return (
-    <div className="bg-hero-pattern flex min-h-screen w-full flex-col p-10">
+    <div className="flex min-h-screen w-full flex-col bg-hero-pattern p-10">
       <h1 className="p-10 text-center text-5xl font-extrabold text-white">
         Rounds
       </h1>
-      <div className="flex w-full flex-1 flex-col items-start justify-start gap-4 text-black">
+      <div className="flex w-full flex-1 flex-col items-start justify-start gap-10 text-black md:gap-5">
         {rounds.map((round, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 rounded-xl bg-gray-300 p-3"
+            className="flex flex-col gap-3 rounded-xl bg-gray-300 px-3 py-5"
           >
             <div className="flex items-center justify-between">
               <h3 className="text-2xl font-bold md:text-3xl">{round.name}</h3>

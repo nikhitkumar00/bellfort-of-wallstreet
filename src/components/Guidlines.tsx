@@ -4,7 +4,7 @@ const Guidlines = () => {
       <h1 className="p-10 text-center text-5xl font-extrabold text-white">
         Guidelines
       </h1>
-      <div className="flex flex-1 flex-col justify-center gap-4 px-10 text-xl text-white md:text-3xl">
+      <div className="flex flex-1 flex-col justify-center gap-4 text-xl text-white md:px-10 md:text-3xl">
         <div>
           Each team must consist of{" "}
           <span className="text-yellow-300">3 to 4 members</span>, and each
