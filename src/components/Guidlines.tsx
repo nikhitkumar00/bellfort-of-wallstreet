@@ -1,10 +1,10 @@
 const Guidlines = () => {
   return (
-    <div className="flex h-screen w-full flex-col bg-[#171921] p-10">
+    <div className="flex min-h-screen w-full flex-col bg-[#171921] p-10">
       <h1 className="p-10 text-center text-5xl font-extrabold text-white">
         Guidelines
       </h1>
-      <div className="flex flex-1 flex-col justify-center gap-4 px-10 text-3xl text-white">
+      <div className="flex flex-1 flex-col justify-center gap-4 px-10 text-xl text-white md:text-3xl">
         <div>
           Each team must consist of{" "}
           <span className="text-yellow-300">3 to 4 members</span>, and each
