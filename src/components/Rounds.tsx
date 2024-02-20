@@ -8,9 +8,9 @@ const Rounds = () => {
     },
     {
       name: "Prototyping and pitching",
-      date: "Feb 28",
+      date: "Feb 29",
       paragraph:
-        "The shortlisted teams from Round 1 will begin the prototyping session. During this round z the teams are to create a prototype of their solution and then do a Business pitch to the judging panel. Money management, Investment, Marketing strategies and Mind map of a team will be evaluated here.",
+        "The shortlisted teams from Round 1 will begin the prototyping session. During this round the teams are to create a prototype of their solution and then do a Business pitch to the judging panel. Money management, Investment, Marketing strategies and Mind map of a team will be evaluated here.",
     },
     {
       name: "Marketing",

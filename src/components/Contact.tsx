@@ -2,6 +2,7 @@ const Contact = () => {
   return (
     <a
       href="tel:+919207671971"
+      title="John Sojan"
       className="fixed bottom-3 right-3 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-yellow-300 p-2"
     >
       <svg
