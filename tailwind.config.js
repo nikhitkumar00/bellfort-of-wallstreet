@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./public/bg.jpg')",
+        "hero-pattern": "url('https://bellfort-of-wallstreet.netlify.app/bg.jpg')",
       }
     },
   },
